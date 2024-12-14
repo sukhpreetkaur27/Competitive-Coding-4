@@ -5,6 +5,7 @@ public class HeightBalancedBinaryTree {
      * Do as the question says.
      * <p>
      * TC: O(n log n)
+     * NOTE: log n in the worst case can be 'n' -> O(n^2)
      * for each node we process the left subtree and right subtree till depth to find the height.
      * <p>
      * and then, we recursively process left subtree and right subtree till depth to check is balanced
